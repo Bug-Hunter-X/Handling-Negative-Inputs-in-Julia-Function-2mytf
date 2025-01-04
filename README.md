@@ -1,0 +1,3 @@
+# Julia Function Bug: Handling Negative Inputs
+
+This repository demonstrates a common error in Julia code:  improper handling of negative inputs in a function. The `bug.jl` file contains the buggy code, which returns 0 for negative inputs instead of handling them appropriately. The `bugSolution.jl` file provides a corrected version.  The issue is that the function doesn't consider what to do when x is negative which may be unexpected behavior.
